@@ -13,24 +13,24 @@ int main()
 		cin >> temp;
 		pushNode(myStack, temp);
 	}
-	
+
 	output(myStack);
 
 	cout << endl;
-	
+
 	for (int i = myStack->size / 3; i >= 0; i--)
 	{
 		cout << byIndex(myStack, i * 3) << " ";
-	}					
-	
+	}
+
 
 	for (int i = myStack->size - 1; i >= 0; i--) {
 		if (i % 3 == 0) continue;
 
 		cout << byIndex(myStack, i) << " ";
 	}
-	
-	
-	system("pause");
+
+
+	//system("pause");
 	return 0;
 }

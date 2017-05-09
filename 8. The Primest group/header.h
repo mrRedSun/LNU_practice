@@ -1,8 +1,7 @@
 #include <iostream>
+#include <ctime>
+#include <cmath>
 #include <stdlib.h>
-#include <time.h>
-
-#pragma once
 
 using namespace std;
 

@@ -1,4 +1,3 @@
-#include "Stack.h"
 
 
 Stack * newStack()
@@ -10,7 +9,7 @@ Stack * newStack()
 
 //-----------------------------------------------------------------------------//
 
-void pushNode(Stack * l, int element) 
+void pushNode(Stack * l, int element)
 {
 	Node * temp = new Node;
 
@@ -23,7 +22,7 @@ void pushNode(Stack * l, int element)
 		l->end = temp;
 		l->size = 1;
 		return;
-		
+
 	}
 	else {
 		l->end->next = temp;
@@ -59,7 +58,7 @@ int byIndex(Stack * s, int index) {
 
 int popNode(Stack * popped) {
 
-	if (!popped->size) 
+	if (!popped->size)
 	{
 		cerr << "Stack is empty!";
 		return -1;
@@ -75,7 +74,7 @@ int popNode(Stack * popped) {
 
 		return temp;
 	}
-	
+
 	int temp = popped->end->value;
 	Node * tempPointer = popped->end;
 	popped->end->prev->next = NULL;

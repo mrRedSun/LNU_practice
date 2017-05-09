@@ -1,0 +1,15 @@
+In file included from C:\Users\objec\Github\Inividual Practice C++ and Python 2016-2017\9. Stack\Stack.h:2:0,
+                 from C:\Users\objec\Github\Inividual Practice C++ and Python 2016-2017\9. Stack\Source.cpp:1:
+C:\Users\objec\Github\Inividual Practice C++ and Python 2016-2017\9. Stack\Stack.cpp:3:1: error: 'Stack' does not name a type
+ Stack * newStack()
+ ^
+C:\Users\objec\Github\Inividual Practice C++ and Python 2016-2017\9. Stack\Stack.cpp:12:15: error: variable or field 'pushNode' declared void
+ void pushNode(Stack * l, int element)
+               ^
+C:\Users\objec\Github\Inividual Practice C++ and Python 2016-2017\9. Stack\Stack.cpp:12:15: error: 'Stack' was not declared in this scope
+C:\Users\objec\Github\Inividual Practice C++ and Python 2016-2017\9. Stack\Stack.cpp:12:23: error: 'l' was not declared in this scope
+ void pushNode(Stack * l, int element)
+                       ^
+C:\Users\objec\Github\Inividual Practice C++ and Python 2016-2017\9. Stack\Stack.cpp:12:26: error: expected primary-expression before 'int'
+ void pushNode(Stack * l, int element)
+                          ^
